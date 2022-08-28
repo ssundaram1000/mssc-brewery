@@ -1,4 +1,4 @@
-package shri.springframework.msscbrewery.web.model.v2;
+package shri.springframework.msscbrewery.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,9 +11,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class BeerDtoV2 {
+public class Customer {
     private UUID id;
-    private String beerName;
-    private BeerStyleEnum beerStyle;
-    private long upc;
+    private String name;
 }

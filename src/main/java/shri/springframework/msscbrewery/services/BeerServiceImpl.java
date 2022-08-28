@@ -6,6 +6,8 @@ import shri.springframework.msscbrewery.web.model.BeerDto;
 
 import java.util.UUID;
 
+import static shri.springframework.msscbrewery.web.model.v2.BeerStyleEnum.ALE;
+
 @Slf4j
 @Service
 public class BeerServiceImpl implements BeerService {
@@ -14,7 +16,7 @@ public class BeerServiceImpl implements BeerService {
         return BeerDto.builder()
                 .id(UUID.randomUUID())
                 .beerName("Galaxy Cat")
-                .beerStyle("Pale Ale")
+                .beerStyle(ALE)
                 .upc(123124)
                 .build();
     }
