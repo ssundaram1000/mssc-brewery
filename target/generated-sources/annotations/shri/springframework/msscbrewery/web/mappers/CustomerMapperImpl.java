@@ -7,7 +7,7 @@ import shri.springframework.msscbrewery.web.model.CustomerDto;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-08-28T17:01:06-0400",
+    date = "2022-09-04T15:38:40-0400",
     comments = "version: 1.5.2.Final, compiler: javac, environment: Java 14.0.2 (AdoptOpenJDK)"
 )
 @Component
